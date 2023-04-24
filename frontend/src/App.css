@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.profile-img{
+    width: 50%;
+}
+
+
+@media screen and (max-width:576px){
+    h2{
+        font-size: 22px;
+    }
+    .signupForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signupForm input{
+        width:10rem;
+    }
+
+    .signupForm input,
+    input::placeholder {
+        font-size: 10px;
+    }
+
+    a {
+         font-size: 8px;   
+    }
+}
+
